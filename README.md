@@ -1,4 +1,4 @@
-Tourism Experience Analytics
+# Tourism Experience Analytics
 
 An end-to-end tourism analytics project that transforms visitor interactions into three practical capabilities: attraction rating prediction, visit-mode classification, and attraction recommendations.
 
