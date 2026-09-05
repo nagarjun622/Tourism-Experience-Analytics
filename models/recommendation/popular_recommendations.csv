@@ -1,0 +1,31 @@
+AttractionId,Attraction,AttractionType,AttractionCity,AttractionCountry,interactions,mean_rating,recommendation_score,reason
+841,Waterbom Bali,Water Parks,Douala,Cameroon,6429,4.646601337688598,4.619384233727316,Popularity and smoothed average rating
+888,Bromo Tengger Semeru National Park,National Parks,South Region,Cameroon,381,4.611548556430447,4.385220872652063,Popularity and smoothed average rating
+640,Sacred Monkey Forest Sanctuary,Nature & Wildlife Areas,Douala,Cameroon,13198,4.267085922109411,4.264032397673681,Popularity and smoothed average rating
+481,Nusa Dua Beach,Beaches,Douala,Cameroon,2104,4.275665399239544,4.257659228036878,Popularity and smoothed average rating
+947,Mount Semeru Volcano,Volcanos,South Region,Cameroon,83,4.698795180722891,4.254908794838892,Popularity and smoothed average rating
+1133,Jomblang Cave,Caverns & Caves,N'Djamena,Chad,135,4.503703703703704,4.248575609368809,Popularity and smoothed average rating
+1278,Ullen Sentalu Museum,History Museums,N'Djamena,Chad,978,4.2566462167689165,4.229010952995997,Popularity and smoothed average rating
+824,Uluwatu Temple,Religious Sites,Douala,Cameroon,3359,4.219410538850848,4.213153521459488,Popularity and smoothed average rating
+737,Tanah Lot Temple,Religious Sites,Douala,Cameroon,3352,4.19480906921241,4.191039362963164,Popularity and smoothed average rating
+928,Khayangan Reflexology & Massage,Spas,South Region,Cameroon,28,4.571428571428571,4.1861618260824764,Popularity and smoothed average rating
+920,Jodipan Colorful Village,Neighborhoods,South Region,Cameroon,44,4.318181818181818,4.174392111620728,Popularity and smoothed average rating
+1220,Ramayana Ballet at Prambanan,Ballets,N'Djamena,Chad,377,4.180371352785146,4.169005110073503,Popularity and smoothed average rating
+975,Sempu Island,Nature & Wildlife Areas,South Region,Cameroon,53,4.2075471698113205,4.163814498184184,Popularity and smoothed average rating
+748,Tegalalang Rice Terrace,Points of Interest & Landmarks,Douala,Cameroon,5815,4.157523645743766,4.157534366034157,Popularity and smoothed average rating
+913,Goa Cina Beach,Beaches,South Region,Cameroon,54,4.092592592592593,4.149579360774983,Popularity and smoothed average rating
+949,Museum Malang Tempo Doeloe,Speciality Museums,South Region,Cameroon,31,4.032258064516129,4.148214300525775,Popularity and smoothed average rating
+877,Balekambang Beach,Beaches,South Region,Cameroon,36,4.027777777777778,4.146428586061609,Popularity and smoothed average rating
+1238,Sewu Temple,Ancient Ruins,N'Djamena,Chad,377,4.1246684350132625,4.141227332295724,Popularity and smoothed average rating
+897,Coban Rondo Waterfall,Waterfalls,South Region,Cameroon,55,3.963636363636364,4.133105675611908,Popularity and smoothed average rating
+1171,Merapi Volcano,Volcanos,N'Djamena,Chad,2235,4.079194630872483,4.090576841321946,Popularity and smoothed average rating
+1225,Ratu Boko Temple,Ancient Ruins,N'Djamena,Chad,204,3.9362745098039214,4.080219319409207,Popularity and smoothed average rating
+1137,Kalibiru National Park,National Parks,N'Djamena,Chad,130,3.8461538461538463,4.078129397280094,Popularity and smoothed average rating
+937,Malang City Square,Points of Interest & Landmarks,South Region,Cameroon,64,3.578125,4.073968088522727,Popularity and smoothed average rating
+650,Sanur Beach,Beaches,Douala,Cameroon,3044,3.97634691195795,3.996426486478401,Popularity and smoothed average rating
+1280,Water Castle (Tamansari),Points of Interest & Landmarks,N'Djamena,Chad,373,3.8150134048257374,3.9877232223611276,Popularity and smoothed average rating
+749,Tegenungan Waterfall,Waterfalls,Douala,Cameroon,2190,3.895433789954338,3.934125287355223,Popularity and smoothed average rating
+1166,Malioboro Road,Flea & Street Markets,N'Djamena,Chad,1324,3.869335347432024,3.9335101956638683,Popularity and smoothed average rating
+673,Seminyak Beach,Beaches,Douala,Cameroon,2914,3.800617707618394,3.8417151118176642,Popularity and smoothed average rating
+1297,Yogyakarta Palace,Historic Sites,N'Djamena,Chad,798,3.5388471177944862,3.73812052949496,Popularity and smoothed average rating
+369,Kuta Beach - Bali,Beaches,Douala,Cameroon,2765,3.4151898734177215,3.5046971575113135,Popularity and smoothed average rating

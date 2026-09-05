@@ -1,0 +1,17 @@
+[
+  {
+    "observation": "Visit demand is concentrated",
+    "evidence": "Top attractions account for a meaningful share of recorded interactions",
+    "business_implication": "Use popularity as a safe cold-start recommendation signal."
+  },
+  {
+    "observation": "Interactions are sparse across users and attractions",
+    "evidence": "User-attraction matrix sparsity is reported in recommendation artifacts",
+    "business_implication": "Use a hybrid approach with content and popularity fallback."
+  },
+  {
+    "observation": "Visit modes are modeled as a multiclass target",
+    "evidence": "Class counts and macro metrics are retained in classification reports",
+    "business_implication": "Monitor minority-class recall alongside overall accuracy."
+  }
+]

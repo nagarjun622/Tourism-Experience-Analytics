@@ -1,0 +1,26 @@
+{
+  "transaction_rows_before": 52930,
+  "master_rows": 52930,
+  "row_multiplication": 0,
+  "duplicate_rows": 0,
+  "missing_by_column": {
+    "TransactionId": 0,
+    "UserId": 0,
+    "VisitYear": 0,
+    "VisitMonth": 0,
+    "VisitMode": 0,
+    "AttractionId": 0,
+    "Rating": 0,
+    "UserCity": 8,
+    "UserCountry": 0,
+    "UserRegion": 0,
+    "UserContinent": 0,
+    "Attraction": 0,
+    "AttractionType": 0,
+    "AttractionCity": 0,
+    "AttractionCountry": 0,
+    "AttractionRegion": 0,
+    "AttractionContinent": 0,
+    "AttractionAddress": 0
+  }
+}

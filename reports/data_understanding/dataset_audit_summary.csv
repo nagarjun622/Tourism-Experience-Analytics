@@ -1,0 +1,11 @@
+dataset,rows,columns,duplicate_rows,key,key_unique,missing_cells
+transaction,52930,7,0,TransactionId,True,0
+user,33530,5,0,UserId,True,4
+city,9143,3,0,CityId,True,1
+country,165,3,0,CountryId,True,0
+region,22,3,0,Region,True,0
+continent,6,2,0,ContinentId,True,0
+mode,6,2,0,VisitModeId,True,0
+type,17,2,0,AttractionTypeId,True,0
+item,30,5,0,AttractionId,True,0
+updated_item,1698,5,0,AttractionId,True,0

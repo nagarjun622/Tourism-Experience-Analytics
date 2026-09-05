@@ -1,0 +1,10 @@
+dataset,before_rows,after_rows,rows_affected,reason
+transaction,52930,52930,0,No rows removed
+user,33530,33530,0,No rows removed
+city,9143,9143,0,No rows removed
+country,165,165,0,No rows removed
+region,22,22,0,No rows removed
+continent,6,6,0,No rows removed
+mode,6,6,0,No rows removed
+type,17,17,0,No rows removed
+item,30,30,0,No rows removed

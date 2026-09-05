@@ -1,0 +1,7 @@
+{
+  "model": "random_forest_balanced",
+  "accuracy": 0.35707538258076704,
+  "macro_precision": 0.3220148917694628,
+  "macro_recall": 0.3904355887112715,
+  "macro_f1": 0.27801298227924004
+}

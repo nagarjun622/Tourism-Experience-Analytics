@@ -1,0 +1,27 @@
+{
+  "selected_model": "random_forest",
+  "features": [
+    "VisitYear",
+    "VisitMonth",
+    "UserContinent",
+    "UserRegion",
+    "UserCountry",
+    "UserCity",
+    "AttractionType",
+    "AttractionCity",
+    "AttractionCountry",
+    "AttractionRegion",
+    "AttractionContinent"
+  ],
+  "target": "Rating",
+  "random_state": 42,
+  "test_size": 0.2,
+  "metrics": {
+    "model": "random_forest",
+    "MAE": 0.7374432280072681,
+    "MSE": 0.9019240665574495,
+    "RMSE": 0.9496968287603416,
+    "R2": 0.042356594395594804
+  },
+  "application_prediction_behavior": "Clip output to the valid 1 to 5 rating range."
+}

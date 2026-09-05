@@ -1,0 +1,9 @@
+{
+  "approach": "Popularity baseline with content attributes for profile matching. Collaborative filtering was not selected as the default because interaction sparsity can make user-neighbor scores unstable.",
+  "users": 33530,
+  "attractions": 30,
+  "interactions": 52930,
+  "sparsity": 0.9473804553136494,
+  "cold_start": "Return ranked popularity list and optionally filter by attraction type or location.",
+  "offline_evaluation": "Not reported because timestamps/order are insufficient for a reliable held-out next-item protocol."
+}

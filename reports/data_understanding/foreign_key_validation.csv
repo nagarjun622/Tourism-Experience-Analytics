@@ -1,0 +1,13 @@
+relationship,orphan_rows,valid
+transaction.UserId -> user.UserId,0,True
+transaction.AttractionId -> item.AttractionId,0,True
+transaction.VisitMode -> mode.VisitModeId,0,True
+user.CityId -> city.CityId,4,False
+user.CountryId -> country.CountryId,0,True
+user.RegionId -> region.RegionId,0,True
+user.ContinentId -> continent.ContinentId,0,True
+city.CountryId -> country.CountryId,0,True
+country.RegionId -> region.RegionId,0,True
+region.ContinentId -> continent.ContinentId,0,True
+item.AttractionTypeId -> type.AttractionTypeId,0,True
+item.AttractionCityId -> city.CityId,0,True

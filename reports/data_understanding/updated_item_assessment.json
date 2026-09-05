@@ -1,0 +1,13 @@
+{
+  "item_shape": [
+    30,
+    5
+  ],
+  "updated_item_shape": [
+    1698,
+    5
+  ],
+  "same_columns": true,
+  "shared_attraction_ids": 30,
+  "decision": "Updated_Item is retained as a separate supplemental source and is not merged automatically."
+}

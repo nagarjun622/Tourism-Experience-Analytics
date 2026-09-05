@@ -1,0 +1,26 @@
+{
+  "selected_model": "random_forest_balanced",
+  "features": [
+    "VisitYear",
+    "VisitMonth",
+    "UserContinent",
+    "UserRegion",
+    "UserCountry",
+    "UserCity",
+    "AttractionType",
+    "AttractionCity",
+    "AttractionCountry",
+    "AttractionRegion",
+    "AttractionContinent"
+  ],
+  "target": "VisitMode",
+  "random_state": 42,
+  "test_size": 0.2,
+  "metrics": {
+    "model": "random_forest_balanced",
+    "accuracy": 0.35707538258076704,
+    "macro_precision": 0.3220148917694628,
+    "macro_recall": 0.3904355887112715,
+    "macro_f1": 0.27801298227924004
+  }
+}

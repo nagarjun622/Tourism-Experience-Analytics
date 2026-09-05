@@ -1,0 +1,19 @@
+column,description
+TransactionId,Integrated tourism field
+UserId,Integrated tourism field
+VisitYear,Integrated tourism field
+VisitMonth,Integrated tourism field
+VisitMode,Visit-mode classification target
+AttractionId,Integrated tourism field
+Rating,Visit rating target (1 to 5)
+UserCity,Integrated tourism field
+UserCountry,Integrated tourism field
+UserRegion,Integrated tourism field
+UserContinent,Integrated tourism field
+Attraction,Integrated tourism field
+AttractionType,Integrated tourism field
+AttractionCity,Integrated tourism field
+AttractionCountry,Integrated tourism field
+AttractionRegion,Integrated tourism field
+AttractionContinent,Integrated tourism field
+AttractionAddress,Integrated tourism field

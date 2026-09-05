@@ -1,0 +1,320 @@
+{
+  "transaction": {
+    "shape": [
+      52930,
+      7
+    ],
+    "columns": [
+      "TransactionId",
+      "UserId",
+      "VisitYear",
+      "VisitMonth",
+      "VisitMode",
+      "AttractionId",
+      "Rating"
+    ],
+    "dtypes": {
+      "TransactionId": "int64",
+      "UserId": "int64",
+      "VisitYear": "int64",
+      "VisitMonth": "int64",
+      "VisitMode": "int64",
+      "AttractionId": "int64",
+      "Rating": "int64"
+    },
+    "missing": {
+      "TransactionId": 0,
+      "UserId": 0,
+      "VisitYear": 0,
+      "VisitMonth": 0,
+      "VisitMode": 0,
+      "AttractionId": 0,
+      "Rating": 0
+    },
+    "duplicates": 0,
+    "key": "TransactionId",
+    "key_unique": true,
+    "unique": {
+      "TransactionId": 52930,
+      "UserId": 33530,
+      "VisitYear": 10,
+      "VisitMonth": 12,
+      "VisitMode": 5,
+      "AttractionId": 30,
+      "Rating": 5
+    }
+  },
+  "user": {
+    "shape": [
+      33530,
+      5
+    ],
+    "columns": [
+      "UserId",
+      "ContinentId",
+      "RegionId",
+      "CountryId",
+      "CityId"
+    ],
+    "dtypes": {
+      "UserId": "int64",
+      "ContinentId": "int64",
+      "RegionId": "int64",
+      "CountryId": "int64",
+      "CityId": "float64"
+    },
+    "missing": {
+      "UserId": 0,
+      "ContinentId": 0,
+      "RegionId": 0,
+      "CountryId": 0,
+      "CityId": 4
+    },
+    "duplicates": 0,
+    "key": "UserId",
+    "key_unique": true,
+    "unique": {
+      "UserId": 33530,
+      "ContinentId": 5,
+      "RegionId": 22,
+      "CountryId": 153,
+      "CityId": 5546
+    }
+  },
+  "city": {
+    "shape": [
+      9143,
+      3
+    ],
+    "columns": [
+      "CityId",
+      "CityName",
+      "CountryId"
+    ],
+    "dtypes": {
+      "CityId": "int64",
+      "CityName": "str",
+      "CountryId": "int64"
+    },
+    "missing": {
+      "CityId": 0,
+      "CityName": 1,
+      "CountryId": 0
+    },
+    "duplicates": 0,
+    "key": "CityId",
+    "key_unique": true,
+    "unique": {
+      "CityId": 9143,
+      "CityName": 8768,
+      "CountryId": 164
+    }
+  },
+  "country": {
+    "shape": [
+      165,
+      3
+    ],
+    "columns": [
+      "CountryId",
+      "Country",
+      "RegionId"
+    ],
+    "dtypes": {
+      "CountryId": "int64",
+      "Country": "str",
+      "RegionId": "int64"
+    },
+    "missing": {
+      "CountryId": 0,
+      "Country": 0,
+      "RegionId": 0
+    },
+    "duplicates": 0,
+    "key": "CountryId",
+    "key_unique": true,
+    "unique": {
+      "CountryId": 165,
+      "Country": 164,
+      "RegionId": 22
+    }
+  },
+  "region": {
+    "shape": [
+      22,
+      3
+    ],
+    "columns": [
+      "Region",
+      "RegionId",
+      "ContinentId"
+    ],
+    "dtypes": {
+      "Region": "str",
+      "RegionId": "int64",
+      "ContinentId": "int64"
+    },
+    "missing": {
+      "Region": 0,
+      "RegionId": 0,
+      "ContinentId": 0
+    },
+    "duplicates": 0,
+    "key": "Region",
+    "key_unique": true,
+    "unique": {
+      "Region": 22,
+      "RegionId": 22,
+      "ContinentId": 6
+    }
+  },
+  "continent": {
+    "shape": [
+      6,
+      2
+    ],
+    "columns": [
+      "ContinentId",
+      "Continent"
+    ],
+    "dtypes": {
+      "ContinentId": "int64",
+      "Continent": "str"
+    },
+    "missing": {
+      "ContinentId": 0,
+      "Continent": 0
+    },
+    "duplicates": 0,
+    "key": "ContinentId",
+    "key_unique": true,
+    "unique": {
+      "ContinentId": 6,
+      "Continent": 6
+    }
+  },
+  "mode": {
+    "shape": [
+      6,
+      2
+    ],
+    "columns": [
+      "VisitModeId",
+      "VisitMode"
+    ],
+    "dtypes": {
+      "VisitModeId": "int64",
+      "VisitMode": "str"
+    },
+    "missing": {
+      "VisitModeId": 0,
+      "VisitMode": 0
+    },
+    "duplicates": 0,
+    "key": "VisitModeId",
+    "key_unique": true,
+    "unique": {
+      "VisitModeId": 6,
+      "VisitMode": 6
+    }
+  },
+  "type": {
+    "shape": [
+      17,
+      2
+    ],
+    "columns": [
+      "AttractionTypeId",
+      "AttractionType"
+    ],
+    "dtypes": {
+      "AttractionTypeId": "int64",
+      "AttractionType": "str"
+    },
+    "missing": {
+      "AttractionTypeId": 0,
+      "AttractionType": 0
+    },
+    "duplicates": 0,
+    "key": "AttractionTypeId",
+    "key_unique": true,
+    "unique": {
+      "AttractionTypeId": 17,
+      "AttractionType": 17
+    }
+  },
+  "item": {
+    "shape": [
+      30,
+      5
+    ],
+    "columns": [
+      "AttractionId",
+      "AttractionCityId",
+      "AttractionTypeId",
+      "Attraction",
+      "AttractionAddress"
+    ],
+    "dtypes": {
+      "AttractionId": "int64",
+      "AttractionCityId": "int64",
+      "AttractionTypeId": "int64",
+      "Attraction": "str",
+      "AttractionAddress": "str"
+    },
+    "missing": {
+      "AttractionId": 0,
+      "AttractionCityId": 0,
+      "AttractionTypeId": 0,
+      "Attraction": 0,
+      "AttractionAddress": 0
+    },
+    "duplicates": 0,
+    "key": "AttractionId",
+    "key_unique": true,
+    "unique": {
+      "AttractionId": 30,
+      "AttractionCityId": 3,
+      "AttractionTypeId": 17,
+      "Attraction": 30,
+      "AttractionAddress": 25
+    }
+  },
+  "updated_item": {
+    "shape": [
+      1698,
+      5
+    ],
+    "columns": [
+      "AttractionId",
+      "AttractionCityId",
+      "AttractionTypeId",
+      "Attraction",
+      "AttractionAddress"
+    ],
+    "dtypes": {
+      "AttractionId": "int64",
+      "AttractionCityId": "int64",
+      "AttractionTypeId": "object",
+      "Attraction": "str",
+      "AttractionAddress": "str"
+    },
+    "missing": {
+      "AttractionId": 0,
+      "AttractionCityId": 0,
+      "AttractionTypeId": 0,
+      "Attraction": 0,
+      "AttractionAddress": 0
+    },
+    "duplicates": 0,
+    "key": "AttractionId",
+    "key_unique": true,
+    "unique": {
+      "AttractionId": 1698,
+      "AttractionCityId": 417,
+      "AttractionTypeId": 22,
+      "Attraction": 1564,
+      "AttractionAddress": 442
+    }
+  }
+}
