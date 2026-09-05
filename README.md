@@ -106,6 +106,8 @@ Use `notebooks/Tourism_Experience_Analytics_Complete_Colab.ipynb` for a single e
 
 See [DEPLOYMENT.md](DEPLOYMENT.md) for Streamlit Community Cloud instructions. The deployed application requires the processed master dataset, saved model files, recommendation artifacts, and insights JSON file to remain in the repository.
 
+## Streamlit demo: **[Live Demo](https://tourism-experience-analytics-3d95yfgkzhgugiubn2aat9.streamlit.app/)**
+
 ## Limitations and future work
 
 - Rating prediction performance is limited by the available behavioral and attraction features.
