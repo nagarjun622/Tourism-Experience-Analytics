@@ -4,6 +4,9 @@ An end-to-end tourism analytics project that transforms visitor interactions int
 
 The project is designed for portfolio presentation, academic evaluation, technical interviews, and Streamlit deployment.
 
+## Streamlit demo: **[Live Demo](https://tourism-experience-analytics-3d95yfgkzhgugiubn2aat9.streamlit.app/)**
+
+
 ## Project objectives
 
 - Predict an attraction rating on the 1 to 5 scale.
@@ -22,8 +25,7 @@ The final integrated dataset contains **52,930 interactions**, **33,530 users**,
 ```text
 Tourism-Experience-Analytics/
 ├── app/                         # Streamlit application
-├── data/
-│   ├── raw/                     # Original Excel files, never overwritten
+├── data/                  
 │   └── processed/               # Cleaned tables and master dataset
 ├── models/                      # Saved machine-learning and recommendation artifacts
 ├── notebooks/                   # Analysis notebooks and complete Colab notebook
@@ -37,7 +39,7 @@ Tourism-Experience-Analytics/
 
 ## Data preparation
 
-Raw Excel workbooks remain unchanged in `data/raw`.
+The original raw Excel workbooks are not included in the GitHub repository.
 
 Before modeling, the pipeline profiles all source tables for schema, data types, missing values, duplicates, key uniqueness, invalid ranges, and foreign-key consistency. It removes only exact duplicate records and documents the before/after counts, affected rows, and reason in `reports/data_quality/cleaning_log.csv`.
 
@@ -82,7 +84,7 @@ python run_pipeline.py
 Launch the Streamlit application:
 
 ```bash
-streamlit run app/streamlit_app.py
+python -m streamlit run app/streamlit_app.py
 ```
 
 ## Streamlit application
@@ -105,8 +107,6 @@ Use `notebooks/Tourism_Experience_Analytics_Complete_Colab.ipynb` for a single e
 ## Deployment
 
 See [DEPLOYMENT.md](DEPLOYMENT.md) for Streamlit Community Cloud instructions. The deployed application requires the processed master dataset, saved model files, recommendation artifacts, and insights JSON file to remain in the repository.
-
-## Streamlit demo: **[Live Demo](https://tourism-experience-analytics-3d95yfgkzhgugiubn2aat9.streamlit.app/)**
 
 ## Limitations and future work
 
